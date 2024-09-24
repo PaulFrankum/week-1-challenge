@@ -16,7 +16,8 @@ nav {
 } 
 p
     {
-        text-align: center;
+        text-align: justify;
+        size: height:400px; width: 400px;
     }
 
 .button {
