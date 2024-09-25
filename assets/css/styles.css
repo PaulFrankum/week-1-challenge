@@ -31,8 +31,13 @@ p {
         background-color:red;
     } 
 
-.about {
-    display:none;
+.button:active {
+    background-color: RED;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    }    
+.about  {
+    display:inline-block;
     margin:20px;
     padding:20px;
     font-size:1em;
@@ -46,9 +51,19 @@ p {
     margin:20px;
 }
 
+.navpage {
+    .about {
+        display:none;
+        }
+    .projects {
+        display:inline-block;
+        }
+    .contact {display:none;
+        }
+    }
 
 footer {
-    border-style:ridge;
+    border-style:double;
     font-size:8pt;
     margin: 10px;
     color: black;
