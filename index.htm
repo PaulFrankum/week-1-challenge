@@ -4,27 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets\css\styles.css">
-    <title>Paul Matthew Frankum Personal Portfolio Web Page</title>
-    <h1>Paul Matthew Frankum<br>Personal Portfolio Web Page</h1>
+    <title>Paul Matthew Frankum Portfolio Web Page</title>
+    <h1>Paul Matthew Frankum<br>Portfolio Web Page</h1>
 </head>
 
 <nav>
-    <button class="button" type="button" onclick="alert('test')" >About</button>
-    <button class="button" type="button" onclick="alert('test')" >Projects</button>
-    <button class="button" type="button" onclick="alert('test')" >Contact</button><br><br>
-
+        <a href="#about" class="button" type="button"">About</a>
+        <a href="#projects" class="button" type="button">Projects</a>
+        <a href= "#contact" class="button" type="button">Contact</a><br><br>
+  
 </nav>
 
-<body>
-<style>.contact
-    {
-    display:inline-block;
-    }
-</style>
-
-<div class="about">
-    <p><span>    <img src  ="assets/bigpic.jpg" alt = "Headshot of Paul Frankum" </img><br></span> I am a former Borough Councillor, voted by all parties to Chair Scrutiny Committee through the Pandemic. 
-        I was deputy then <span> <a href="assets/mayor.jpg" alt = "Paul Frankum in mayors ropes" target="_blank"</span>Mayor for Basingstoke and Deane Council</a>. I served for over 20 years. I now want to get 
+<div class="#about">
+    <img src  ="assets/bigpic.jpg" alt = "Headshot of Paul Frankum" </img><br>
+    
+    <p> I am a former Borough Councillor, voted by all parties to Chair Scrutiny Committee through the Pandemic. 
+        I was deputy then <span> <a href="assets/mayor.jpg" alt = "Paul Frankum in mayors ropes" target="_blank"</span>
+        Mayor for Basingstoke and Deane Council</a>. I served for over 20 years. I now want to get 
         back to my first love of coding, so to this end I have enrolled in this skills coding Boot Camp. To 
         refresh my skills. In my spare time I am a Rotarian at present I am running one of the two biggest 
         fund-raising events The Marine Band with Marine Drummers Concert in the Anvil for 26th January 2025 
@@ -34,8 +30,8 @@
 
 </div>
 
-<div class="projects">
-    <p>Projects Page</p>
+<div class="#projects">
+    <h1>Projects Page</h1>
 
     <p>I am the lead on A performance of his Majest Marine band and Drummers at the Anvil 26th January 2025 with all profits going to Charity</p>
     <img src  ="assets/marine.jpg" alt = "Poster for concert of the Marine Band " size: width="400px"</img><br><br>
@@ -46,12 +42,13 @@
 
 </div>
 
-<div class="contact">
-    <P> Contact Page</P>
-    <p> If you like to contatc me then click on links below to either Email (prefered) or Phone or fill in form below.</p>
+<div class="#contact">
+    <h1> Contact Page</h1>
+    <p> If you like to contact me then click on links below to either Email (prefered) or Phone or fill in form below.</p><br><br>
 
-    <label for="title">Choose a title:</label>
+
     <form>        
+        <label for="title">Choose a title:</label>
         <select id="title" name="title">
             <option value="mr">Mr</option>
             <option value="mrs">Mrs</option>
@@ -67,15 +64,13 @@
         <input type="email" id="email" name="email"><br><br>
         <p>Please Enter Message:</p>
         <textarea name="message" rows="15" cols="60"></textarea><br><br>
-        <button>
-            <input type="Submit"/>
-        </button><br><br>
+        <button <input class="button" type="Submit">Submit</button><br><br>
     </form>
 
-    <a href=mailto:paul_frankum@msn.com?subject="Contact from webpage" 
-        <p>Email Me:</p></a>
-    <a href=tel:07887714083" 
-        <p>Phone Me:</p></a>
+    <a href=mailto:paul_frankum@msn.com?subject="Contact from webpage" class="button"
+        <h2>Email Me:</h2></a>
+    <a href=tel:07887714083" class="button"
+        <h2>Phone Me:</h2></a>
 </div>
 
 </body>
