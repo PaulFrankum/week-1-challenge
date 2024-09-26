@@ -5,18 +5,18 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
 h1 {
     text-align: center;
     padding: 30px;
     font-size: 4em;
-    }
+}
 
 p {
     text-align: justify;
     width: 50%;
-    }
+}
 
 footer {
     border-style:double;
@@ -24,13 +24,13 @@ footer {
     margin: 10px;
     color: black;
     text-align: center;
-    }
+}
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }   
+}   
 
 .button {
     background-color: #777777;
@@ -44,17 +44,22 @@ img {
     cursor: pointer;
     border: 1px;
     border-radius: 5dvi;
-    }
+}
 
 .button:hover { 
     background-color:red;
-    } 
+} 
 
 .button:active {
     background-color: RED;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-    }    
+}    
 
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
