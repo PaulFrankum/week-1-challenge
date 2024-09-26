@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Genral Styles*/
 * {
     background-color: aquamarine;
@@ -63,3 +64,70 @@ img {
   width: 50%;
 }
 
+=======
+/* Genral Styles*/
+* {
+    background-color: aquamarine;
+    font-family: Frutiger, sans-serif;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 4em;
+}
+
+p {
+    text-align: justify;
+    width: 50%;
+}
+
+footer {
+    border-style:double;
+    font-size:8pt;
+    margin: 10px;
+    color: black;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+.button {
+    background-color: #777777;
+    color: white;
+    padding: 15px 35px;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 16px;
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 5dvi;
+}
+
+.button:hover { 
+    background-color:red;
+} 
+
+.button:active {
+    background-color: RED;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}    
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+>>>>>>> 14f788ffae5ea46c125ea08053b6fd522d4b0117
